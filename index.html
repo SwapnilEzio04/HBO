@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to get HBO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<style>
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  .font-anton {
+    font-family: 'Anton', sans-serif;
+  }
+</style>
+
+  </head>
+  <body>
+    <!-- ------------NAV VAR STARTS HERE-------------->
+    <header class="bg-white text-black shadow">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center justify-between py-4 px-4 relative">
+  <!-- Hamburger (mobile only) -->
+  <button id="menu-toggle" class="lg:hidden mr-3">
+    <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <!-- Logo -->
+  <a href="#"><img src="../Images/hbo-logo-blk.svg" alt="HBO Logo" class="h-6" /></a>
+
+  <!-- Desktop Nav Links -->
+  <ul class="hidden lg:flex space-x-6 text-sm font-medium mx-6 font-poppins">
+    <li><a class="hover:text-purple-400 transition" href="#">SERIES</a></li>
+    <li><a class="hover:text-purple-400 transition" href="#">MOVIES</a></li>
+    <li><a class="hover:text-purple-400 transition" href="#">NEW & LAST CHANCE</a></li>
+    <li><a class="hover:text-purple-400 transition" href="#">SCHEDULE</a></li>
+    <li><a class="hover:text-purple-400 transition" href="#">FREE EPISODES</a></li>
+    <li class="relative group">
+      <button class="flex items-center gap-1 hover:text-purple-400 transition">
+        MORE
+        <svg class="w-3 h-3 mt-[2px]" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M5.25 7.5L10 12.25L14.75 7.5H5.25Z" />
+        </svg>
+      </button>
+      <ul class="absolute top-full left-0 bg-white text-black rounded shadow-md hidden group-hover:block min-w-[160px] z-10 font-poppins">
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">DOCUMENTARIES</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">SPECIALS</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">SPORTS</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">PODCASTS</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Sign In / Sign Up Buttons -->
+  <div class="flex items-center gap-3 ml-auto">
+    <button class="text-sm px-4 py-1.5 hover:bg-white hover:text-black transition font-poppins">SIGN IN</button>
+    <button class="text-sm px-4 py-1.5 bg-gradient-to-r from-purple-700 to-blue-600 text-white rounded flex items-center gap-2 hover:opacity-90 font-poppins">
+      SIGN UP FOR
+      <img src="../Images/Max_Iridescent-White_Logo_Small_RGB.png" alt="Max Logo" class="h-4" />
+    </button>
+  </div>
+
+  <!-- Mobile Nav (Dropdown) -->
+  <ul id="mobile-menu" class="lg:hidden hidden absolute top-full left-0 w-full bg-white shadow-md mt-2 px-6 py-4 space-y-3 font-poppins z-50">
+    <li><a class="hover:text-purple-400 block" href="#">SERIES</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">MOVIES</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">NEW & LAST CHANCE</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">SCHEDULE</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">FREE EPISODES</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">DOCUMENTARIES</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">SPECIALS</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">SPORTS</a></li>
+    <li><a class="hover:text-purple-400 block" href="#">PODCASTS</a></li>
+  </ul>
+</nav>
+
+
+  </div>
+</header>
+<!-- ---------------NAV BAR ENDS HERE---------------->
+
+<!-- Top Text -->
+    <div class="text-center mb-12 mt-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-2 text-gray-600 font-poppins">Ways to Get HBO</h2>
+      <p class="text-[20px] text-gray-600 mt-6 font-poppins">
+        Subscription options to watch your favorite series and more.
+      </p>
+    </div>
+
+    <section class="bg-gradient-to-r from-black to bg-gray-700 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-center max-w-screen-xl mx-auto px-4">
+  
+  <!-- Poster Section -->
+    <div class="lg:col-span-3 order-2 lg:order-1">
+    <div class="grid sm:grid-cols-3 gap-4">
+      <!-- Poster 1 -->
+      <div class="flex justify-center">
+        <img src="../Images/house-of-the-dragon-mid-season-2.jpg" alt="House of the Dragon"
+             class="w-[180px] md:w-[200px] xl:w-[280px] xl:h-[400px] rounded-md shadow-lg" />
+      </div>
+
+      <!-- Poster 2 -->
+      <div class="flex justify-center">
+        <img src="../Images/sporanos-max-banner-vanilla-2x3.jpg" alt="Sopranos"
+             class="w-[180px] md:w-[200px] xl:w-[280px] xl:h-[400px] rounded-md shadow-lg" />
+      </div>
+
+      <!-- Poster 3 -->
+      <div class="flex justify-center">
+        <img src="../Images/TheLastofUs_2560x3840-c.jpg" alt="The Last of Us"
+             class="w-[180px] md:w-[200px] xl:w-[280px] xl:h-[400px] rounded-md shadow-lg" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Max Info -->
+  <div class="lg:col-span-1 text-center order-1 lg:order-2">
+    <img src="../Images/hbomax-logo-iridescent-white.png" alt="Max Logo"
+         class="h-40 mx-auto mb-4" />
+    <h3 class="text-2xl md:text-4xl font-semibold leading-snug mb-4 font-poppins">
+      Must-See Series,<br>Movies & More
+    </h3>
+    <button class="mt-4 bg-white text-black px-6 py-3 font-semibold hover:bg-gray-200 transition font-poppins">
+      SIGN UP NOW
+    </button>
+  </div>
+  </div>
+</section>
+
+
+    
+    <section class="bg-white text-neutral-800 py-12 px-4 sm:px-8 md:px-16">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-4xl font-bold mb-4 text-gray-700 font-poppins">
+      How do I get HBO on my TV?
+    </h2>
+    <p class="text-lg mb-8 text-gray-600 font-poppins">
+      There are a couple of
+      <a href="#" class="underline hover:text-blue-500">ways to watch HBO</a>
+      on your TV (and the rest of your devices). Here's the breakdown:
+    </p>
+
+    <!-- Sign up for HBO Max -->
+    <div class="mb-10 text-gray-600 text-lg">
+      <h3 class="text-2xl font-bold mb-2 text-gray-700 font-poppins">Sign up for HBO Max</h3>
+      <p class="mb-4 text-gray-600 text-lg font-poppins">
+        <a href="#" class="underline hover:text-blue-500">HBO Max</a>
+        is the enhanced service featuring all of HBO. With
+        <a href="#" class="underline hover:text-blue-500">HBO Max</a>,
+        you can stream your favorite award-winning HBO series, blockbuster movies, and rewatch-worthy specials. There’s something to enjoy for every mood, with streamable options spanning a wide range of genres, including comedy, drama, reality, lifestyle, food, true crime, and more.
+      </p>
+      <p class="mb-4 text-gray-600 text-lg font-poppins">
+        To see all the ways you can get HBO Max, go to
+        <a href="#" class="underline hover:text-blue-500">Ways To Get HBO Max</a>.
+      </p>
+    </div>
+
+    <!-- Get HBO through your TV provider -->
+    <div>
+      <h3 class="text-2xl font-bold mb-2 text-gray-700 font-poppins">Get HBO through your TV provider</h3>
+      <p class="mb-4 text-gray-600 text-lg font-poppins">
+        Alternatively, you can subscribe to HBO through your television provider. This subscription will grant you access to the HBO television channels (there are seven 24-hour HBO networks on traditional pay television), which you can check the schedule for
+        <a href="#" class="underline hover:text-blue-500">here</a>. Plus, you’ll be able to use your account details to get HBO Max, too. To learn more, contact your provider.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <footer class="bg-neutral-600 text-white py-10 px-4 text-center font-poppins">
+  <!-- Logo -->
+  <div class="mb-6">
+    <img src="../Images/hbo-logo-footer.svg" alt="HBO Logo" class="mx-auto w-20 sm:w-24">
+  </div>
+
+  <!-- Main Footer Menu -->
+  <ul class="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm font-medium mb-6 text-white">
+    <li><a href="#" class="hover:underline">ABOUT</a></li>
+    <li><a href="#" class="hover:underline">GET HBO</a></li>
+    <li><a href="#" class="hover:underline">HELP</a></li>
+    <li><a href="#" class="hover:underline">SHOP</a></li>
+    <li><a href="#" class="hover:underline">CAREERS</a></li>
+    <li><a href="#" class="hover:underline">HBO INSPIRES</a></li>
+  </ul>
+
+  <!-- Secondary Menu -->
+  <ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs mb-4 text-white">
+    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+    <li><a href="#" class="hover:underline">Terms of Use</a></li>
+    <li><a href="#" class="hover:underline">Ad Choices</a></li>
+    <li><a href="#" class="hover:underline">Cookie Settings</a></li>
+  </ul>
+
+  <!-- Footer Text -->
+  <p class="text-xs text-white leading-relaxed">
+    © 2025 Home Box Office, Inc. All Rights Reserved. <br>
+    This website may contain mature content.
+  </p>
+</footer>
+
+
+
+  <script src="nav.js"></script>
+  </body>
+</html>
